@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<pixel_122 &le; 8.5<br/>entropy = 3.322<br/>samples = 48000<br/>value = [4823, 4714, 4885, 4843, 4772, 4780, 4824, 4754, 4796<br/>4809]<br/>class = Pullover>, fillcolor="#ffffff"] ;
+1 [label=<pixel_262 &le; 11.5<br/>entropy = 2.291<br/>samples = 18138<br/>value = [169.0, 75.0, 62.0, 501.0, 62.0, 4711.0, 145.0, 4753.0<br/>2899.0, 4761.0]<br/>class = Ankle boot>, fillcolor="#ffffff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<pixel_599 &le; 68.5<br/>entropy = 1.903<br/>samples = 14698<br/>value = [25.0, 31.0, 7.0, 332.0, 6.0, 4467.0, 15.0, 4693.0<br/>438.0, 4684.0]<br/>class = Sneaker>, fillcolor="#ffffff"] ;
+1 -> 2 ;
+3 [label=<entropy = 1.334<br/>samples = 7821<br/>value = [11, 8, 5, 20, 4, 3251, 10, 4099, 41, 372]<br/>class = Sneaker>, fillcolor="#eedafa"] ;
+2 -> 3 ;
+4 [label=<entropy = 1.67<br/>samples = 6877<br/>value = [14, 23, 2, 312, 2, 1216, 5, 594, 397, 4312]<br/>class = Ankle boot>, fillcolor="#f193a4"] ;
+2 -> 4 ;
+5 [label=<pixel_426 &le; 24.5<br/>entropy = 1.697<br/>samples = 3440<br/>value = [144.0, 44.0, 55.0, 169.0, 56.0, 244.0, 130.0, 60.0<br/>2461.0, 77.0]<br/>class = Bag>, fillcolor="#ed76d3"] ;
+1 -> 5 ;
+6 [label=<entropy = 2.787<br/>samples = 727<br/>value = [102, 38, 9, 163, 9, 149, 51, 1, 135, 70]<br/>class = Dress>, fillcolor="#fafefb"] ;
+5 -> 6 ;
+7 [label=<entropy = 0.984<br/>samples = 2713<br/>value = [42.0, 6.0, 46.0, 6.0, 47.0, 95.0, 79.0, 59.0, 2326.0<br/>7.0]<br/>class = Bag>, fillcolor="#e956c9"] ;
+5 -> 7 ;
+8 [label=<pixel_498 &le; 10.5<br/>entropy = 2.792<br/>samples = 29862<br/>value = [4654, 4639, 4823, 4342, 4710, 69, 4679, 1, 1897, 48]<br/>class = Pullover>, fillcolor="#fefffe"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<pixel_574 &le; 9.5<br/>entropy = 2.16<br/>samples = 14659<br/>value = [4197.0, 4512.0, 93.0, 3795.0, 546.0, 33.0, 1382.0, 0.0<br/>97.0, 4.0]<br/>class = Trouser>, fillcolor="#fefef9"] ;
+8 -> 9 ;
+10 [label=<entropy = 0.261<br/>samples = 3958<br/>value = [31, 3844, 4, 29, 5, 21, 13, 0, 11, 0]<br/>class = Trouser>, fillcolor="#e3e63f"] ;
+9 -> 10 ;
+11 [label=<entropy = 2.036<br/>samples = 10701<br/>value = [4166.0, 668.0, 89.0, 3766.0, 541.0, 12.0, 1369.0, 0.0<br/>86.0, 4.0]<br/>class = T-shirt/top>, fillcolor="#fef8f4"] ;
+9 -> 11 ;
+12 [label=<pixel_70 &le; 9.5<br/>entropy = 2.307<br/>samples = 15203<br/>value = [457, 127, 4730, 547, 4164, 36, 3297, 1, 1800, 44]<br/>class = Pullover>, fillcolor="#f8fef5"] ;
+8 -> 12 ;
+13 [label=<entropy = 1.556<br/>samples = 1810<br/>value = [65, 6, 136, 37, 67, 15, 174, 0, 1295, 15]<br/>class = Bag>, fillcolor="#ed77d4"] ;
+12 -> 13 ;
+14 [label=<entropy = 2.145<br/>samples = 13393<br/>value = [392.0, 121.0, 4594.0, 510.0, 4097.0, 21.0, 3123.0, 1.0<br/>505.0, 29.0]<br/>class = Pullover>, fillcolor="#f8fef4"] ;
+12 -> 14 ;
+}
